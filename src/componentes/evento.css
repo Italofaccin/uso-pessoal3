@@ -1,0 +1,24 @@
+/* Container geral do card de evento */
+.evento {
+  width: 100%;                /* Ocupa toda a largura possível */
+  max-width: 600px;           /* Mas nunca passa de 600px */
+  background-color: #1b0202;  /* Fundo vermelho escuro */
+  color: rgb(0, 255, 64);     /* Texto verde neon */
+  padding: 20px;              /* Espaçamento interno */
+  margin: 20px auto;          /* Espaço externo + centraliza horizontalmente */
+  border-radius: 12px;        /* Cantos arredondados */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12); /* Sombra suave */
+  font-family: "Arial", sans-serif; /* Fonte padrão */
+  font-size: 15px;            /* Tamanho base do texto */
+}
+
+/* Efeito quando o usuário passa o mouse no card */
+.evento:hover {
+  transform: translateY(5px); /* Move o card 5px para baixo */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.18); /* Sombra mais fraca */
+}
+
+/* Estilo dos parágrafos dentro do card */
+.evento p {
+  font-size: 17px; /* Parágrafos um pouco maiores */
+}

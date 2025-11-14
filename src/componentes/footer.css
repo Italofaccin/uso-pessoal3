@@ -1,0 +1,13 @@
+footer {
+    background-color: #007bff; /* azul */
+    color: #fff; /* texto branco */
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* ocupa toda a largura da tela */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 50px;
+    position: fixed;
+  }
+  

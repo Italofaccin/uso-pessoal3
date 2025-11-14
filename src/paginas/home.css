@@ -1,0 +1,12 @@
+.inicio {
+        width: 90%;
+    max-width: 900px;  
+    background-color: #040a1a;
+    color:rgb(104, 14, 221);
+    padding: 10px;
+    margin: 5px;
+    width:100%;
+    bottom: 0;
+    border-radius: 12px;
+    letter-spacing: 2px;
+  }
